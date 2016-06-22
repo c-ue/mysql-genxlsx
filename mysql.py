@@ -35,4 +35,5 @@ class core:
             if row != 1:
                 self.error = 'Data Schema broken.'
                 return False
+
             return cc.fetchall()
